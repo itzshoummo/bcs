@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bengal Culture Society — Sarezzo (BS)</title>
+  <meta name="description" content="Associazione culturale a Sarezzo per promuovere la cultura induista e le tradizioni dell'India e del Bangladesh." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root{
+      --accent:#0077b6;
+      --accent-light:#00b4d8;
+      --muted:#555;
+      --bg:#f0f4f8;
+      --card:#ffffff;
+      --event-bg:#caf0f8;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{font-family:system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.6;margin:0;background:var(--bg);color:#111}
+    .container{max-width:1000px;padding:16px;margin:0 auto}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--accent);box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+    .logo img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+    h1{margin:0;font-size:24px;color:var(--accent)}
+    p.lead{color:var(--muted);margin:4px 0 0;font-size:14px}
+
+    .hero{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch;padding:24px 0}
+    .hero-card{background:var(--card);border-radius:16px;padding:20px;box-shadow:0 4px 12px rgba(15,23,42,0.08);display:flex;flex-direction:column;justify-content:center;font-size:15px;min-height:160px}
+    .hero-card h2{color:var(--accent);margin-top:0;font-size:18px}
+
+    .grid{display:grid;grid-template-columns:1fr;gap:24px;margin-top:24px}
+    .section{background:var(--card);border-radius:16px;padding:20px;box-shadow:0 4px 12px rgba(15,23,42,0.06);font-size:15px;display:flex;flex-direction:column;justify-content:center;}
+    .section h2{margin-top:0;color:var(--accent);font-size:18px}
+
+    .event-card{background:var(--event-bg);border-radius:16px;padding:24px;box-shadow:0 4px 12px rgba(15,23,42,0.08);margin-top:32px; display:flex; flex-direction:column; gap:12px;}
+    .event-card h2{font-size:22px; margin-bottom:10px;}
+    .event-card ul{padding-left:20px; margin:0; list-style-type: disc;}
+    .event-card li{margin-bottom:6px; font-size:15px}
+
+    footer{margin-top:24px;padding:16px 0;color:var(--muted);font-size:13px;display:flex;justify-content:center;align-items:center;border-top:1px solid #eee}
+
+    .icons{display:flex;flex-direction:column;gap:8px;margin-top:8px;font-size:14px}
+    .icons a{display:flex;align-items:center;gap:8px;color:var(--accent);text-decoration:none;font-weight:500}
+    .icons a i{font-size:18px}
+
+    .flex-row{display:flex;gap:24px;flex-wrap:wrap;margin-top:24px;align-items:stretch}
+    .flex-item{flex:1;min-width:250px; display:flex; flex-direction:column;}
+
+    @media (max-width:800px){
+      .hero{grid-template-columns:1fr;gap:16px;padding:16px 0}
+      header{flex-direction:column;align-items:flex-start;gap:8px}
+      .flex-row{flex-direction:column;gap:16px;margin-top:16px}
+      .container{padding:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo"><img src="logo.png" alt="BCS Logo"></div>
+        <div>
+          <h1>Bengal Culture Society</h1>
+          <p class="lead">Associazione culturale di Sarezzo (BS)</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="event-card">
+      <h2>Evento in evidenza</h2>
+      <ul>
+        <li><strong>RUN FOR ALL THE DEVI</strong></li>
+        <li><strong>Quando:</strong> Sabato 4 ottobre</li>
+        <li><strong>Dove:</strong> Parco Arcobaleno, Ponte Zanano, Sarezzo (BS)</li>
+        <li><strong>Ritrovo:</strong> Via Pascoli 42, ore 9:30 | Partenza corsa ore 10</li>
+        <li><strong>Beneficenza:</strong> Ricavati a favore de Il Mosaico Onlus di Lumezzane</li>
+        <li><strong>Patrocinio:</strong> Comune di Sarezzo, Comune di Gardone Val Trompia, Guardia di Finanza, Croce Rossa Italiana, Run for Bharat</li>
+        <li><strong>Rinfresco etnico:</strong> Alle ore 12</li>
+      </ul>
+    </section>
+
+    <section class="hero">
+      <div class="hero-card">
+        <h2>Un viaggio che unisce mondi</h2>
+        <p>La nostra associazione, nata dall’iniziativa di cittadini originari dell'India e del Bangladesh, promuove la cultura induista e le tradizioni dei paesi d'origine attraverso pratiche culturali e attività comunitarie.</p>
+      </div>
+      <div class="hero-card">
+        <h2>Un ponte tra culture</h2>
+        <p>Condividiamo valori, spiritualità e tradizioni attraverso feste, yoga, canti e danze. Creiamo momenti unici che uniscono persone e generazioni, aprendo spazi di dialogo e amicizia.</p>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section id="about" class="section">
+        <h2>Chi siamo</h2>
+        <p>La Bengal Culture Society è un'associazione culturale senza scopo di lucro con sede a Sarezzo (BS), fondata da cittadini di origine indiana e bengalese. Il nostro intento è creare uno spazio di condivisione e valorizzazione delle tradizioni, della religione e della cultura del subcontinente indiano.</p>
+        <p><strong>Missione:</strong> preservare e diffondere le usanze, favorire la conoscenza reciproca e promuovere momenti di incontro intergenerazionale.</p>
+      </section>
+    </div>
+
+    <div class="flex-row">
+      <div class="flex-item">
+        <section id="contatti" class="section" style="flex:1;">
+          <h2>Contatti</h2>
+          <div class="icons">
+            <a href="mailto:bcs.sarezzo@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i> Email: bcs.sarezzo@gmail.com</a>
+            <a href="https://instagram.com/bcs.sarezzo" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i> Instagram: @bcs.sarezzo</a>
+          </div>
+        </section>
+      </div>
+
+      <div class="flex-item">
+        <section class="section" style="text-align:center; background:var(--card); flex:1; display:flex; flex-direction:column; justify-content:center;">
+          <h2>Scopri, condividi, vivi</h2>
+          <p>Unisciti a noi per conoscere e vivere tradizioni senza confini.</p>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <div>© Bengal Culture Society</div>
+    </footer>
+  </div>
+</body>
+</html>
